@@ -1,0 +1,12 @@
+[package]
+name = "chain_link"
+version = "0.1.3"
+edition = "2021"
+authors = ["Kael <icekontroi@gmail.com>"]
+description = "Micro library with a util for chaining operations on a single type."
+license = "MIT OR Apache-2.0"
+publish = true
+readme = "README.md"
+
+[dependencies]
+seq-macro = "0.3.6"

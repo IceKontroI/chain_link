@@ -1,0 +1,11 @@
+[package]
+name = "chain_link_tst"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[lib]
+path = "tests.rs"
+
+[dependencies]
+chain_link = { path = "../" }
